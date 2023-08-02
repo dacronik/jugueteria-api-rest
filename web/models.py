@@ -19,4 +19,4 @@ class ContactForm(models.Model):
     message = models.TextField()
     
     def __str__(self) -> str:
-        return f'{self.customer_name} {self.customer_email}'
+        return self.customer_email

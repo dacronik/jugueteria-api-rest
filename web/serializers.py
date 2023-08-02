@@ -9,4 +9,4 @@ class JugueteSerializer(serializers.ModelSerializer):
 class ContactFormSerializer(serializers.ModelSerializer):
     class Meta:
         model = ContactForm
-        fields =['id','customer_email', 'customer_name', 'message']
+        fields =('id','customer_email', 'customer_name', 'message')
